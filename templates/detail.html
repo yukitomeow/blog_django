@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block header %} {% endblock %} {% block content %}
+<div class="container">
+  <div class="card">
+    <h5 class="card-header">{{object.category}}</h5>
+    <div class="card-body">
+      <h5 class="card-title">{{object.title}}</h5>
+      <p class="card-text">{{object.content}}</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+  </div>
+  {% endblock %}
+</div>
